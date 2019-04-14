@@ -2,6 +2,9 @@ package com.atguigu.shiro.factory;
 
 import java.util.LinkedHashMap;
 
+/**
+ * 从数据表里面初始化资源和权限
+ */
 public class FilterChainDefinitionMapBuilder {
 
 	public LinkedHashMap<String, String> buildFilterChainDefinitionMap(){

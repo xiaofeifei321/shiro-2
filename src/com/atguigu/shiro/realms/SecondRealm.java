@@ -11,6 +11,10 @@ import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.realm.AuthenticatingRealm;
 import org.apache.shiro.util.ByteSource;
 
+/**
+ * 连接不同的数据库，不同的数据加密方式存到
+ * 多个Realm配置称为
+ */
 public class SecondRealm extends AuthenticatingRealm {
 
 	@Override

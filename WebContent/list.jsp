@@ -9,9 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	
 	<h4>List Page</h4>
-	
 	Welcome: <shiro:principal></shiro:principal>
 	
 	<shiro:hasRole name="admin">

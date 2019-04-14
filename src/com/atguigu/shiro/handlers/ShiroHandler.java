@@ -49,7 +49,6 @@ public class ShiroHandler {
             	System.out.println("µÇÂ¼Ê§°Ü: " + ae.getMessage());
             }
         }
-		
 		return "redirect:/list.jsp";
 	}
 	
